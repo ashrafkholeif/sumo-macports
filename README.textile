@@ -1,0 +1,25 @@
+h1. Portfiles for the sumo traffic simulator
+
+h2. Installation Instructions:
+
+# Go to some directory where you want to save these Portfiles, this could be anywhere
+# Clone from GitHub
+<pre>
+$ git clone git@github.com:gjherbiet/sumo-macports.git
+</pre>
+# Create the Index
+<pre>
+$ portindex
+</pre>
+# Add this folder to @/opt/local/etc/macports/sources.conf@
+<pre>
+$ [sudo] echo "file://`pwd`" >> /opt/local/etc/macports/sources.conf
+</pre>
+# Now you can install @sumo@
+<pre>
+$ sudo port install sumo
+</pre>
+or if you want the latest trunk version
+<pre>
+$ sudo port install sumo-devel
+</pre>

@@ -1,12 +1,12 @@
-h1. Portfiles for the sumo traffic simulator
+h1. Portfiles for SUMO (Simulation of Urban MObility) traffic simulator
 
 h2. Installation Instructions:
 
 # Go to some directory where you want to save these Portfiles, this could be anywhere.
 Example:
-<pre>$ cd ~ </pre>
-<pre>$ mkdir macports</pre>
-<pre>$ cd macports</pre>
+<pre>$ cd ~
+$ mkdir macports
+$ cd macports</pre>
 # Clone from GitHub
 <pre>$ git clone git@github.com:gjherbiet/sumo-macports.git</pre>
 # Change to the newly created @sumo-macports@ directory
